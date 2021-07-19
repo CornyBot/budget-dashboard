@@ -1,6 +1,7 @@
 :root {
     --primary-color: #13171A;
     --secondary-color: #1B1F22;
+    --tertiary-color: #1F2628;
 }
 
 html, body {
@@ -35,6 +36,17 @@ header {
     margin-top: 5px;
     color: #999;
     font-size: 12px;
+}
+
+form > input {
+    height: 50px;
+    background-color: var(--tertiary-color);
+    border: 0;
+    color: white;
+    font-family: Helvetica;
+    font-size: 24px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 1001px) {
